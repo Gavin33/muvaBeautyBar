@@ -12,3 +12,13 @@ body {
 i {
     color: #4eb19b
 }
+
+.about-1{
+    margin: 30px;
+    padding: 5px;
+}
+
+.about-1 h1 {
+    text-align: center;
+    color: black;
+}
