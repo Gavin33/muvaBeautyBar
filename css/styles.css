@@ -5,3 +5,10 @@
 body {
     font-family: 'Inter', sans-serif;
 }
+
+.jumbotron {
+    background-color: white;
+}
+i {
+    color: #3B8905
+}
