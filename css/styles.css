@@ -50,5 +50,19 @@ i {
 .about-item hr{
     width: 46px;
     height: 3px;
-    background-color: antiquewhite;
+    background-color: rgb(110, 194, 135);
+    margin: 0 auto;
+    border: nome;
+}
+.about-item p{
+    margin-top: 20px;  
+}
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    color: #d3c481;
+}
+
+.about-item:hover hr{
+    background-color: aquamarine;
 }
