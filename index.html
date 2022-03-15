@@ -64,8 +64,8 @@
                 <!-- Logo -->
                 <div class="col"></div>
                 <div class="col">
-                    <a href="#"><img src="img/Press On Line Logo 1 copy.png" alt="B. Press'd By Muva Beauty Bar Logo"
-                            ></a>
+                    <a href="#"><img src="img/Press On Line Logo 1 copy.png"
+                            alt="B. Press'd By Muva Beauty Bar Logo"></a>
                 </div>
                 <div class="col"></div>
                 <!-- Icons -->
@@ -99,25 +99,37 @@
                 <!-- Navbar items -->
                 <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav flex-row align-items-center sticky-top">
-                        <li class="nav-item col-4 col-sm-2">
+                        <li class="nav-item col-4 col-sm-3 col-md-2 d-sm-block">
                             <select name="currency" id="currency" class="custom-select custom-select-sm">
 
                                 <option selected value="USD">USD</option>
-        
+
                                 <option value="CAD">CAD</option>
-        
+
                                 <option value="EUR">EUR</option>
-        
+
                                 <option value="GBP">GBP</option>
-        
+
                             </select>
                         </li>
                         <li class="nav-item col active">
                             <a href="#" class="nav-link"> Home</a>
+                            </button>
                         </li>
-                        <li class="nav-item col text-muted">
-                            Shop
-                        </li>
+                        <li class="nav-item col dropdown">
+                            <div class="btn text-muted dropdown-toggle" data-toggle="dropdown">
+                                Shop</div>
+                            <div class="dropdown-menu">
+                                <a href="shop.html" class="dropdown-item">Shop All</a>
+                                <form>
+                                <div class="btn dropdown-header" data-toggle="collapse" data-target="#collapseByStyle">
+                                    - By Style
+                                </div>
+                                <div class="collapse" id="collapseByStyle">
+                                    French Nails
+                                </div>
+                                </form>
+                            </div>
                         <li class="nav-item col">
                             <a href="#" class="nav-link"> About</a>
                         </li>
@@ -127,14 +139,14 @@
                         <li class="nav-item col">
                             <a href="#" class="nav-link"> Subscribe</a>
                         </li>
-                        
-                        <li class="nav-item col">
+
+                        <li class="nav-item col d-none d-md-inline">
                             <i class="fa fa-user"></i>
                         </li>
-                        <li class="nav-item col">
+                        <li class="nav-item col d-none d-md-inline">
                             <i class="fa fa-search" aria-hidden="true"></i>
                         </li>
-                        <li class="nav-item col">
+                        <li class="nav-item col d-none d-md-inline">
                             <i class="fa fa-shopping-cart"></i>
                         </li>
                     </ul>
@@ -151,4 +163,5 @@
             $('[data-toggle="tooltip"]').tooltip()
         })
     </script>
+    <script src="js/scripts.js"></script>
 </body>
