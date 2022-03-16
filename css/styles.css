@@ -26,7 +26,7 @@ i {
 .about-1 p{
     text-align: center;
     padding: 3px;
-    color: black;
+    color: #0e0b0c;
 }
 
 .about-item{
@@ -56,5 +56,19 @@ i {
 .wrapper {
     align-items: stretch;
     background-color: #c5a85f;
-    color: #faf0e8
+    color: #faf0e8;
+    background-color: rgb(110, 194, 135);
+    margin: 0 auto;
+    border: nome;
+}
+.about-item p{
+    margin-top: 20px;  
+}
+
+.about-item:hover p{
+    color: #d3c481;
+}
+
+.about-item:hover hr{
+    background-color: aquamarine;
 }
