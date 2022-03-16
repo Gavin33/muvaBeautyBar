@@ -1,5 +1,5 @@
 .sale {
-    background-color: #FF00FA
+    background-color: #f7cbdc
 }
 
 body {
@@ -10,5 +10,51 @@ body {
     background-color: white;
 }
 i {
-    color: #3B8905
+    color: #4eb19b
+}
+
+.about-1{
+    margin: 30px;
+    padding: 5px;
+}
+
+.about-1 h1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+.about-1 p{
+    text-align: center;
+    padding: 3px;
+    color: black;
+}
+
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 80px,30px;
+    box-shadow: 0 0 9px rgba(0,0,0 .6);
+}
+
+.about-item i{
+    font-size: 43px;
+    margin: 0;
+}
+
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    background-color: antiquewhite;
+}
+/* Makes a sidebar */
+.wrapper {
+    align-items: stretch;
+    background-color: #c5a85f;
+    color: #faf0e8
 }
