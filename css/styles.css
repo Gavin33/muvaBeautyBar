@@ -55,12 +55,20 @@ i {
 /* Makes a sidebar */
 .wrapper {
     align-items: stretch;
-    background-color: #c5a85f;
-    color: #faf0e8;
-    background-color: rgb(110, 194, 135);
-    margin: 0 auto;
-    border: nome;
+    display: flex;
 }
+
+.sidebar {
+    background-color: rgb(110, 194, 135);
+    max-height: 100vh;
+    min-width: 125px;
+    max-width: 125px;
+}
+
+.wrapper h3 {
+    color: #faf0e8;
+}
+
 .about-item p{
     margin-top: 20px;  
 }
@@ -72,3 +80,11 @@ i {
 .about-item:hover hr{
     background-color: aquamarine;
 }
+
+/* .best-sellers-body {
+    margin-bottom: 3vh;
+} */
+
+/* .carousel {
+    height: 0.5rem;
+} */
