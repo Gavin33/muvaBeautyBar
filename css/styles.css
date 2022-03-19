@@ -88,3 +88,6 @@ i {
 /* .carousel {
     height: 0.5rem;
 } */
+#subscribeModal .modal-header {
+    background-color: #17A2B8;
+    color: rgb(221, 153, 148); }
